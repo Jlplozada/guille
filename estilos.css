@@ -1,0 +1,104 @@
+body {
+    background-color: lightblue;
+}
+
+
+h1 {
+    color: rgb(255, 0, 128);
+    }
+h1 {
+    font-style: oblique;
+    padding: 10px 25px;
+}
+
+header {
+
+    background: #ffffff;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+section {
+    background: #ffffff;
+    color:#d1005e;
+    width: 50%;
+    border-radius: 15px;
+    box-shadow: 10px 10px hotpink;
+}
+
+div {
+    background: lightpink;
+    color:#ea3687;
+    width: 50%;
+    border-radius: 15px;
+    width: 100%;
+}
+
+aside {
+    display: inline-block;
+    margin: auto 1200px;
+    border: 5px solid white;
+}
+
+
+nav {
+    
+    max-width: 900px;
+    margin: auto;
+    display: inline-block;
+
+}
+
+.menu-horizontal {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+
+    display: block;
+    padding: 5px 20px;
+    color: hotpink;
+    text-decoration: none;
+
+}
+
+
+
+.menu-horizontal > li:hover {
+
+    background-color: lightpink;
+    border-radius: 15px;
+}
+
+
+
+.menu-vertical {
+
+    position: absolute;
+    list-style: none;
+    display: list-item;
+    width: 100px;
+    background-color: lightpink;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+.menu-vertical > li > a {
+
+     color: white;
+     
+}
+
+.menu-horizontal .menu-vertical {
+    display: ;
+}
+
+.menu-horizontal ul li a:hover + ul, .menu-vertical:hover {
+    display: block;
+}
+
+
+    

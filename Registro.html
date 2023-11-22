@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="estilos-registro.css">
+    <link rel="icon" href="imagenes/logo_de_prueba.png">
+
+</head>
+<body>
+    <header>
+    
+    <h1>Registro</h1>
+    
+    </header>
+
+
+    <div>
+
+    <br>
+    
+    <form action="index.html"><button><img src="imagenes/logo_de_prueba.png" height="15">volver al inicio</button></form>
+
+
+    <br><br>
+
+    <label for="TIPO">¿Quien eres?</label>
+    <select name="tipo" id="TIPO" required>
+
+     <option value="1" cliente>cliente</option>
+     <option value="1" Entepastelero>pasteleria</option>
+     <option value="1" tienda>tienda de reposteria</option>
+
+    </select> 
+
+<br><br>
+
+
+  <form action="ruta.php" method="get" autocomplete="off"> 
+
+    <input type="text" name="nombre" id="nombre" placeholder="nombre" value="" required>
+    <input type="text" name="apellido" id="apellido" placeholder="apellido" value="" required> <br><br>
+    <input type="email" name="correo" id="correo" placeholder="email" value="" required> 
+
+<br><br>    
+
+    <input type="password" placeholder="contraseña" required>
+    
+<br><br>
+
+    <label for="ciudad">ciudad</label>
+    <select name="ciudad" id="ciudad" required>
+
+     <option value="1" giron>Girón</option>
+     <option value="1" giron>Bucaramanga</option>
+     <option value="1" giron>Floridablanca</option>
+
+    </select> 
+
+<br><br>
+
+    <input type="number" placeholder="número">
+
+<br><br>
+
+<label for="genero">Género:</label><br>
+
+    <label for="sexo" id="genero">masculino</label>
+    <input type="checkbox" id="masculino" value="masculino">
+
+<br>
+
+    <label for="sexo" id="genero">femenino</label>
+    <input type="checkbox" id="femenino" value="femenino">
+
+<br>
+
+    <label for="sexo" id="genero">otro</label>
+    <input type="checkbox" id="otro" value="otro">
+
+<br><br>
+
+<input type="color"><input type="range">
+
+<br><br>
+
+ <button>crear usuario <img src="imagenes/donuts.jpg" height="10"></button>
+  
+<br><br>
+
+  </form>
+    </div>
+
+</body>
+</html>
